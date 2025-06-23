@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.pacocastle.spring.data.mongodb.model.Tutorial;
 import com.pacocastle.spring.data.mongodb.repository.TutorialRepository;
 
-@CrossOrigin(origins = "${CORS_ALLOWED_ORIGINS}")
+@CrossOrigin(origins = "https://spring-boot-data-mongodb-production.up.railway.app/api/tutorials")
 @RestController
 @RequestMapping("/api")
 public class TutorialController {
